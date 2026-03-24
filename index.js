@@ -4,6 +4,7 @@ const generatePassword = require("password-generator");
 
 const app = express();
 
+
 app.use(express.static(path.join(__dirname, "client/build")));
 
 app.get("/api/passwords", (req, res) => {
