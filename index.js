@@ -8,6 +8,8 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, "client/build")));
 
+test C
+
 app.get("/api/passwords", (req, res) => {
   const count = 5;
 
