@@ -2,9 +2,18 @@ const express = require("express");
 const path = require("path");
 const generatePassword = require("password-generator");
 
+// Express
+
+// Express comment
 const app = express();
 
+
 app.use(express.static(path.join(__dirname, "client/build")));
+
+
+test 
+
+test C
 
 app.get("/api/passwords", (req, res) => {
   const count = 5;
